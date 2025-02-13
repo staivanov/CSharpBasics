@@ -6,7 +6,6 @@
         int k = 2;
 
         //SetN(1);
-       
     }
 
     public static void SetN(int input)
@@ -18,7 +17,6 @@
         {
             Console.WriteLine($"{i} {input}");
             SetN(input + 1);
-
         }
     }
 
@@ -28,13 +26,8 @@
 
         while(index <= n)
         {
-
-
             index++;
         }
-
-
-
     }
 
 
