@@ -16,7 +16,6 @@
             tableThree = new int[defaultSize];
         }
 
-
         private int GetHashCodeTableOne(int key) => key % tableOne.Length;
         private int GetHashCodeTableTwo(int key) => (GetHashCodeTableOne(key) * 83 + 7) % tableTwo.Length;
         private int GetHashCodeTableThree(int key) => (GetHashCodeTableOne(key) * GetHashCodeTableOne(key) + 19) * tableThree.Length;
