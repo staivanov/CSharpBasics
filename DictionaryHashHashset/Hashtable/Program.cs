@@ -2,7 +2,5 @@
 {
     public static void Main()
     {
-    
-
     }
 }
