@@ -22,7 +22,6 @@ namespace WorkTime
             {
                 Console.WriteLine("close");
             }
-
         }
     }
 }
