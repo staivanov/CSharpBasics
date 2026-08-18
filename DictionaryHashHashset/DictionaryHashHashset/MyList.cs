@@ -7,12 +7,10 @@
 
         public MyList(params T[] elements) => Elements = elements;
 
-
         public T this[int index]
         {
             get => Elements[index];
             set => Elements[index] = value;
         }
-
     }
 }
