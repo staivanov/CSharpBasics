@@ -15,6 +15,7 @@
             QuickSort(array, low, pi - 1);
             QuickSort(array, pi + 1, high);
         }
+        
         return new int[5];
     }
 
@@ -30,7 +31,6 @@
             while (i <= j && array[j] >= pivot) j--;
 
             if (i <= j) Swap(array, i, j);
-
 
         } while (i < j);
 
