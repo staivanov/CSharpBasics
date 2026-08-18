@@ -17,13 +17,11 @@ namespace Journey
                 camp = "Camp",
                 hotel = "Hotel";
 
-
             double budgetMax100lv = 100,
                 budgetMax1000lv = 1000,
                 budgetAbove1000lv = 1000,
                 amountSpent = 0,
                 discount = 0;
-
 
             if (budget <= budgetMax100lv)
             {
