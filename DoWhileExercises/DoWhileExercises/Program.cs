@@ -14,10 +14,8 @@ namespace DoWhileExercises
                 userWord = Console.ReadLine();
 
                 if(userWord == stopCommand)
-                {
-                    break;
-                }
-
+                      break;
+                
                 Console.WriteLine(userWord);
             }
         }
