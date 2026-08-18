@@ -11,11 +11,9 @@ namespace ow2kPlus1
 
             while(k <= num)
             {
-
                 Console.WriteLine(k);
                 k = 2 * k + 1;
             }
-    
         }
     }
 }
