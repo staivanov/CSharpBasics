@@ -47,6 +47,5 @@
             writer.Write(bestSubmatrixSum);
             writer.Close();
         }
-
     }
 }
