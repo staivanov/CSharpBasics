@@ -109,7 +109,6 @@ namespace MyDictionary
             }
 
             return default(V);
-
         }
 
         private void Expand()
@@ -131,7 +130,6 @@ namespace MyDictionary
                 }
             }
         }
-
 
         public bool Remove(K key)
         {
