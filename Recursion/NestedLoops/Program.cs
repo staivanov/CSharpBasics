@@ -16,8 +16,6 @@
         //NestedLoops(0);
 
         GetNumbers(5);
-
-
     }
 
     public static int GetNumbers(int n)
@@ -28,12 +26,7 @@
         }
 
         return 5 * n + GetNumbers(n - 1);
-
-
     }
-
-
-
 
     static void NestedLoops(int currentLoop)
     {
