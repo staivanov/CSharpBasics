@@ -6,19 +6,14 @@
         int[] a = { 10, 8, 5, 9 };
 
         int result = LCM(a, n);
-
     }
-
 
     public static int GCD(int a, int b)
     {
         return (0 == b) ? a : GCD(b, a % b);
     }
 
-
     public static int LCM(int[] a, int n)
-
-         
     {
         int b;
 
