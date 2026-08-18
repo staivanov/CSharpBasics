@@ -44,7 +44,6 @@ namespace _12_TradeComission
                 categoryByUserQuantityInput = minQuantityCategory;
             }
 
-
             if (sofia == userCity)
             {
                 switch (categoryByUserQuantityInput)
