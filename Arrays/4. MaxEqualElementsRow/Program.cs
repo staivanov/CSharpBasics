@@ -49,6 +49,5 @@ namespace MaxEqualElementsRow
 
             return biggestEqualRow;
         }
-
     }
 }
