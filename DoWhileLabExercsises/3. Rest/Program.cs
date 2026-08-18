@@ -18,7 +18,6 @@ namespace Rest
 
             while (true)
             {
-
                 int currentMoney = 0;
                 userCommand = Console.ReadLine();
                 bool isValidUserCommand = int.TryParse(userCommand, out currentMoney);
@@ -36,7 +35,6 @@ namespace Rest
                     daysCounter++;
 
                     bool isExcursionMoneyEnough = excursionMoney <= currentMoneySum ? true : false;
-
 
                     if (isExcursionMoneyEnough)
                     {
@@ -56,7 +54,6 @@ namespace Rest
                     if (isCurrentMoneySumZero)
                     {
                         currentMoneySum = 0;
-
                     }
 
                     if (spendDaysCounter == 5)
@@ -65,7 +62,6 @@ namespace Rest
                         Console.WriteLine($"{daysCounter}");
                         break;
                     }
-
                 }
             }
         }
