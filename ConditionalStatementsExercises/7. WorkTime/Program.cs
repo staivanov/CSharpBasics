@@ -6,7 +6,6 @@ namespace WorkTime
     {
         static void Main(string[] args)
         {
-
             int userTime = int.Parse(Console.ReadLine());
             string day = Console.ReadLine();
             int officeOpen = 10;
