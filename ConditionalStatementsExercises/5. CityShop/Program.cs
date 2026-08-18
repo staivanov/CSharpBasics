@@ -27,7 +27,6 @@ namespace CityShop
                 sweetsPrice = 0,
                 peanutsPrice = 0;
 
-
             if (sofia == city)
             {
                 switch (product)
