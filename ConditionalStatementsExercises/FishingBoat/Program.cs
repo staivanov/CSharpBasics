@@ -6,7 +6,6 @@ namespace FishingBoat
     {
         static void Main(string[] args)
         {
-
             int budget = int.Parse(Console.ReadLine());
             string seasonInput = Console.ReadLine();
             int fishermanNumber = int.Parse(Console.ReadLine());
@@ -64,7 +63,6 @@ namespace FishingBoat
 
                     totalPrice = FishermanEvenDiscountCalc(fishermanNumber, totalPrice, regularPrice);
                     BudgetCalculator(budget, totalPrice);
-
                     break;
 
                 case "Autumn":
@@ -84,7 +82,6 @@ namespace FishingBoat
                     totalPrice = regularPrice;
 
                     BudgetCalculator(budget, totalPrice);
-
                     break;
 
                 case "Winter":
@@ -103,15 +100,12 @@ namespace FishingBoat
 
                     totalPrice = FishermanEvenDiscountCalc(fishermanNumber, totalPrice, regularPrice);
                     BudgetCalculator(budget, totalPrice);
-
                     break;
 
                 default:
                     break;
-
             }
         }
-
 
         public static void BudgetCalculator(int userBudget, double price)
         {
@@ -124,7 +118,6 @@ namespace FishingBoat
                 Console.WriteLine($"Not enough money! You need {-(userBudget - price)} leva.");
             }
         }
-
 
         public static double FishermanEvenDiscountCalc(int fishermanNumber, double totalPrice, double regularPrice)
         {
