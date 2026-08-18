@@ -15,7 +15,6 @@
             Z = pointZ;
         }
 
-
         public override bool Equals(object? obj)
         {
             if (this == obj) return true;
@@ -42,6 +41,5 @@
         {
             return string.Format($"X={X} Y={Y} Z={Z}");
         }
-
     }
 }
