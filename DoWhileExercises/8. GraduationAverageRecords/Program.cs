@@ -6,7 +6,6 @@ namespace GraduationAverageRecords
     {
         static void Main(string[] args)
         {
-
             string studetName = Console.ReadLine();
             double minYearSuccessGrade = 4,
                 gradeBrokeCounter = 0,
@@ -18,7 +17,6 @@ namespace GraduationAverageRecords
             while(currentYear <= yearToGraduation)
             {
                 yearGrade = double.Parse(Console.ReadLine());
-
                 
                 if(yearGrade < minYearSuccessGrade)
                 {
@@ -41,10 +39,7 @@ namespace GraduationAverageRecords
                     Console.WriteLine($"{studetName} graduated. Average grade: {averageYearGrade}");
                     break;
                 }
-
             }
-
-
         }
     }
 }
