@@ -6,7 +6,6 @@ namespace BiggestNumber
     {
         static void Main(string[] args)
         {
-
             string commandStop = "Stop",
                  userCommand;
 
