@@ -7,9 +7,7 @@
         string originalWord = "start",
             wordToReplace = "finish";
         text = text.Replace(originalWord, wordToReplace);
-
         WriteTextToFile(fileName, text);
-
     }
     public static string GetTextFromFile(string path)
     {
