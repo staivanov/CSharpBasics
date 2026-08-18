@@ -38,6 +38,4 @@
         }
         Console.WriteLine();
     }
-
-
 }
