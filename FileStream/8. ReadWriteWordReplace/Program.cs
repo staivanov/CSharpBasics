@@ -15,7 +15,6 @@ internal class Program
             Regex regex = new Regex(pattern, RegexOptions.IgnoreCase);
             string currentLine = reader.ReadLine();
             string text = currentLine.Replace(originalWord, newWord);
-
         }
     }
 }
