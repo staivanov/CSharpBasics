@@ -33,14 +33,12 @@ namespace ExamPreparation
                 }
 
                 lastExercises = exerciseName;
-
                 grade = int.Parse(Console.ReadLine());
 
                 if (badGradeMax <= grade)
                 {
                     badGradesNumber--;
                     badGradeCounter++;
-
                 }
                 else if (badGradesNumber == 0)
                 {
@@ -50,7 +48,6 @@ namespace ExamPreparation
                 gradeSum += grade;
                 exerciseCounter++;
             }
-
         }
     }
 }
