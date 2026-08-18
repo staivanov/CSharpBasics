@@ -4,8 +4,6 @@ namespace Cake
 {
     class Program
     {
-
-
         static void Main(string[] args)
         {
             int cakeWidth = int.Parse(Console.ReadLine());
@@ -35,7 +33,5 @@ namespace Cake
                 }
             }
         }
-
     }
 }
-
