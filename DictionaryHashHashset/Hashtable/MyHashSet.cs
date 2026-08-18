@@ -17,11 +17,9 @@ namespace Hashtable
 
         public ThreeSet() => innerDictionary = new SortedDictionary<T, bool>();
 
-
         public int Count { get => innerDictionary.Count; }
         public bool IsReadOnly { get => false; }
         public void Clear() => innerDictionary.Clear();
-
 
         public bool Add(T element)
         {
@@ -34,7 +32,6 @@ namespace Hashtable
             return false;
 
         }
-
 
         public void IntersectWith(ThreeSet<T> other)
         {
@@ -54,7 +51,6 @@ namespace Hashtable
             }
         }
 
-
         public void UnionWith(ThreeSet<T> other)
         {
             foreach (T key in other)
@@ -63,24 +59,19 @@ namespace Hashtable
             }
         }
 
-
         public bool Contains(T item) => innerDictionary.ContainsKey(item);
-
 
         public void CopyTo(T[] array, int arrayIndex)
         {
             innerDictionary.Keys.CopyTo(array, arrayIndex);
         }
 
-
         public IEnumerator<T> GetEnumerator()
         {
             return innerDictionary.Keys.GetEnumerator();
         }
 
-
         public bool Remove(T item) => innerDictionary.Remove(item);
-
 
         IEnumerator IEnumerable.GetEnumerator()
         {
@@ -88,6 +79,5 @@ namespace Hashtable
         }
 
         void ICollection<T>.Add(T item) => this.Add(item);
-
     }
 }
