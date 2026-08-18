@@ -6,7 +6,6 @@ namespace OperationsBetweenNumbers
     {
         static void Main(string[] args)
         {
-
             int numberOne = int.Parse(Console.ReadLine());
             int numberTwo = int.Parse(Console.ReadLine());
             char mathematicOperator = char.Parse(Console.ReadLine());
@@ -50,16 +49,7 @@ namespace OperationsBetweenNumbers
                     result = numberOne % numberTwo;
                     Console.WriteLine($"{numberOne} + {numberTwo} = {result}");
                     break;
-
-
-
-
             }
-
-
-          
-
-
         }
     }
 }
