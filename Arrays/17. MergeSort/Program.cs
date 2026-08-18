@@ -5,7 +5,6 @@
         int[] numbers = { 38, 27, 43, 3, 9, 82, 10 };
         MergeSort(numbers, 0, 6);
         DisplaySortedArray(numbers);
-
     }
 
     public static void MergeSort(int[] array, int left, int right)
@@ -68,5 +67,4 @@
             Console.Write($"{number} ");
         }
     }
-
 }
