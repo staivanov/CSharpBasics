@@ -6,7 +6,6 @@ namespace NewHome
     {
         static void Main(string[] args)
         {
-
             double rosePrice = 5,
                 dahliaPrice = 3.8,
                 tulipPrice = 2.8,
@@ -63,7 +62,7 @@ namespace NewHome
 
                     totalPrice = budget - totalPrice;
 
-                     isBudgetEnough = totalPrice > 0 ? true : false;
+                    isBudgetEnough = totalPrice > 0 ? true : false;
 
                     if (isBudgetEnough)
                     {
@@ -156,12 +155,7 @@ namespace NewHome
                 default:
                     Console.WriteLine($"Not enough money!");
                     break;
-
             }
-
-
-
-
         }
     }
 }
