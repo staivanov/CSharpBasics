@@ -30,7 +30,6 @@ namespace AccountBalance
                 sum += moneyIncome;
                 Console.WriteLine($"Increase: {moneyIncome}");
             }
-
         }
     }
 }
