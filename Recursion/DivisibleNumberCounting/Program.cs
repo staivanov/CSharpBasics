@@ -5,11 +5,6 @@
         double n = 24;
         int counterNdivision = CountDivision(n);
         Console.WriteLine(counterNdivision);
-
-
-
-
-
     }
 
     public static int CountDivision(double number)
@@ -25,13 +20,4 @@
 
         return count;
     }
-
-
-
-
-
-
-
-
-
 }
