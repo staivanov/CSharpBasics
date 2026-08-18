@@ -14,7 +14,6 @@ namespace Arrays
                 numbers[i] = i * elementPower;
                 Console.WriteLine(numbers[i]);
             }
-
         }
     }
 }
